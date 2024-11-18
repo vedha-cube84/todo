@@ -1,0 +1,118 @@
+body{
+    background-color: beige;
+}
+.dashboard{
+    margin: 4%;
+    border-radius: 8px;
+    padding: 30px;
+}
+.todo-input{
+    background: bisque;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 10px;
+}
+.todo-list{
+    background: bisque;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 10px;
+}
+.todo-list ul{
+
+}
+.todo-list ul li{
+    list-style-type: none;
+    background: #f5f5dc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.todo-list ul li .box{
+    display: flex;
+    margin-bottom: 30px;
+}
+.todo-list ul li .box h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+}
+.todo-list ul li .box p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+}
+.buttons{
+    
+}
+input{
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+button{
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dashboard .nav{
+    margin: 10px;
+    background: burlywood;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.dashboard .nav .logout{
+    cursor: pointer;
+}
+.main-page{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.main-page h2{
+    text-align: center;
+}
+.main-page form{
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    background: blanchedalmond;
+    border-radius: 8px;
+    padding: 30px;
+    display: block;
+}
+.main-page form label{
+    display: block;
+    /* padding-bottom: 20px; */
+    width: 100%;
+}
+.main-page form input{
+    display: block;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.main-page form input[type="submit"]{
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: auto;
+}
